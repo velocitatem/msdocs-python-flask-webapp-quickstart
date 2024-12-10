@@ -6,7 +6,7 @@
             "value": "North Europe"
         },
         "keyVaultName": {
-            "value": "myKeyVault"
+            "value": "d4l-keyvault"
         },
         "keyVaultRoleAssignments": {
             "value": [
@@ -23,7 +23,7 @@
             ]
         },
         "appServiceAPIAppName": {
-            "value": "myAppServiceAPI"
+            "value": "d4l-myAppServiceAPI"
         },
         "environmentType": {
             "value": "nonprod"
