@@ -60,4 +60,8 @@ module webapp 'webapp.bicep' = {
     dockerRegistryImageName: 'myimage'
     appSettings: [ ]
   }
+  dependsOn: [
+    registry
+  ]
 }
+

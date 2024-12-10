@@ -14,10 +14,6 @@ param enableVaultForDeployment bool = true
 @description('Array of role assignments for the Key Vault')
 param roleAssignments array = []
 
-// Define diagnostic setting name
-@description('Name of the diagnostic setting for the resources')
-param diagnosticSettingName string = 'myDiagnosticSetting'
-
 
 // Define Key Vault outputs
 @description('The resource ID of the Key Vault')
