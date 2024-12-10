@@ -32,7 +32,7 @@ module keyVault 'keyvault.bicep' = {
 module registry 'registry.bicep' = {
   name: 'registry'
   params: {
-    registryName: 'myregistry'
+    registryName: 'd4l-myregistry'
     location: location
     sku: 'Basic'
     keyVaultResourceId: keyVault.outputs.resourceId
@@ -48,7 +48,7 @@ resource keyVaultReference 'Microsoft.KeyVault/vaults@2023-07-01' existing = {
 }
 
 module webapp 'webapp.bicep' = {
-  name: 'webapp'
+  name: 'd4l-webapp'
   params: {
     location: location
     environmentType: environmentType
